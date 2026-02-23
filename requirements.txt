@@ -1,0 +1,10 @@
+unstructured[all-docs]
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+python-dotenv
+pydantic
+sqlalchemy
+rank-bm25
+numpy

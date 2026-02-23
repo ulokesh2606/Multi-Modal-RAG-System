@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# RAG runtime artifacts
+db/
+storage/
+logs/
+cache/
+figures/
+
+# OS / Editor
+.DS_Store
+.vscode/
