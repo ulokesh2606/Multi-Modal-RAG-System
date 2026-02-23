@@ -1,4 +1,4 @@
-# 🚀 Multi-Modal RAG System
+# Multi-Modal RAG System
 
 A **production-grade, safety-first Retrieval-Augmented Generation (RAG) system**
 designed to handle **real-world multimodal documents** containing **text, tables,
@@ -9,9 +9,9 @@ toy demos.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔹 Ingestion Pipeline
+### Ingestion Pipeline
 - File-type aware routing (`PDF`, `DOCX`, `PPTX`, `TXT`, `HTML`)
 - High-resolution PDF parsing
   - Table structure inference
@@ -23,7 +23,7 @@ toy demos.
 - Vector database storage with rich metadata
 - Detailed ingestion reports and logs
 
-### 🔹 Retrieval Pipeline
+### Retrieval Pipeline
 - Multi-query expansion using LLM
 - Hybrid retrieval strategy:
   - Dense vector search (Cosine + MMR)
@@ -35,11 +35,7 @@ toy demos.
 
 ---
 
-## 🏗 Ingestion Pipeline – Architecture Diagram
-
-The ingestion pipeline is designed to robustly process **multimodal documents**
-while preserving full traceability and auditability.
-
+## Ingestion Pipeline – Architecture Diagram
 ![RAG Ingestion Architecture](https://github.com/ulokesh2606/Multi-Modal-RAG-System/blob/main/images/Ingestion.png)
 
 ## ⚙️ Ingestion Flow (Detailed)
@@ -68,8 +64,12 @@ while preserving full traceability and auditability.
    - Full ingestion report generated per document
 
 ---
-![RAG Ingestion Architecture](https://github.com/ulokesh2606/Multi-Modal-RAG-System/blob/main/images/Retrievalpng)
-## 🔍 Retrieval Flow (Detailed)
+
+## Retrieval Pipeline – Architecture Diagram
+![RAG Retrieval Architecture](https://github.com/ulokesh2606/Multi-Modal-RAG-System/blob/main/images/Retrieval.png)
+
+
+## Retrieval Flow (Detailed)
 
 1. **Query Expansion**
    - Generates multiple semantically diverse queries
