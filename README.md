@@ -17,6 +17,7 @@ The system is divided into three main modules:
 ---
 
 # Ingestion Pipeline
+![Ingestion](https://github.com/ulokesh2606/Multi-Modal-RAG-System/images/RAG INGESTION.png)
 
 #### **Partitioning**
 
@@ -45,7 +46,7 @@ Stores embeddings in a vector database for semantic retrieval.
 ---
 
 # Retrieval Pipeline
-
+![Retrieval](https://github.com/ulokesh2606/Multi-Modal-RAG-System/images/RAG Retrieval.png)
 ### **Query Expansion**
 
 Generates alternative queries to improve recall.
